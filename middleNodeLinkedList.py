@@ -1,3 +1,4 @@
+# O(n) time | O(1) space
 class LinkedList:
     def __init__(self, value):
         self.value = value
