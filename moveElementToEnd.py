@@ -1,15 +1,15 @@
 # O(n) time | O(1) space
-def moveElementToEnd(array, toMove):
+def moveElementToEnd(arr, toMove):
     i = 0
-    j = len(array) -1
+    j = len(arr) - 1
 
     while i < j:
-        while i < j and array[j] == toMove:
+        while i < j and arr[j] == toMove:
             j -= 1
-        if array[i] == toMove:
-            array[i], array[j] = array[j], array[i]
+        if arr[i] == toMove:
+            arr[i], arr[j] = arr[j], arr[i]
         i += 1
-    return array
+    return arr
 
 
 array = [2, 1,  2, 2, 2, 3, 4, 2]
