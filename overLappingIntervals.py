@@ -19,4 +19,5 @@ intervals = [   [1, 2],
                 [9, 10]
             ]
 
+
 print(mergeOverlappingIntervals(intervals))
