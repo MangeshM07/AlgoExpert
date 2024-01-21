@@ -1,4 +1,5 @@
 # O(n log n) time | O(n) space
+
 def mergeOverlappingIntervals(intervals):
     intervals.sort(key=lambda i:i[0])
     mergedIntervals = [intervals[0]]
