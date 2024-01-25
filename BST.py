@@ -32,7 +32,7 @@ class BST:
         while currentNode is not None:
             if value < currentNode.value:
                currentNode = currentNode.left
-            elif:
+            elif value > currentNode.value:
                 currentNode = currentNode.right
             else:
                 return True
@@ -64,7 +64,8 @@ class BST:
                         currentNode.left = currentNode.right.left
                         currentNode.right = currentNode.right.right
                     else:
-                        currentNode.value = None
+                        # currentNode.value = None
+                        pass
                 elif parentNode.left == currentNode:
                     parentNode.left = currentNode.left if currentNode.left is not None else currentNode.right
                 elif parentNode.right == currentNode:
