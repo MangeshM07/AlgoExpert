@@ -1,4 +1,5 @@
 # O(n) time | O(d) space
+from bstTraversal import *
 class BST:
     def __init__(self, value):
         self.value = value
@@ -54,3 +55,7 @@ root = buildTree(tree)
 # Validate the BST
 result = bst.validateBST(root)
 print("Is BST:", result)
+
+print("In Order Traversal of BST : ", inOrderTraverse(root, array=[]))
+print("In Order Traversal of BST : ", preOrderTraverse(root, array=[]))
+print("In Order Traversal of BST : ", postOrderTraverse(root, array=[]))
