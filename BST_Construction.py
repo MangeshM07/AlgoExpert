@@ -4,6 +4,8 @@ class BST:
         self.left = None
         self.right = None
 
+    # Average : O(log n) time | O(1) space
+    # Worst : O(n) time | O(1) space
     def insert(self,value):
         currentNode = self
         while True:
