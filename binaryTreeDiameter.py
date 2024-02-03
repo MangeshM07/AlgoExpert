@@ -13,6 +13,7 @@ def binaryTreeDiameter(tree):
     return longestPath
 
 
+
 def calculateLongestPath(tree):
     global longestPath
     if tree is None:
