@@ -6,6 +6,7 @@ class BinaryTree:
         self.parent = parent
 
 
+# O(n) time | O(n) space
 def findSuccessor(tree, node):
     inOrderTraversalOrder = getInOrderTraversalOrder(tree)
 
