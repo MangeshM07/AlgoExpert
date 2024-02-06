@@ -5,6 +5,7 @@ class BinaryTree:
         self.right = right
 
 
+
 class TreeInfo:
     def __init__(self, isBalanced, height):
         self.isBalanced = isBalanced
