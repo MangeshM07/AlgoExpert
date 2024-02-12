@@ -17,6 +17,6 @@ def numberOfWaysToMakeChange_optimized(n, denoms):
             waysToMakeChange[change] += waysToMakeChange[change-denom]
     return waysToMakeChange[-1]
 
-n = 10
+n = 100
 denoms = [1,5,10,25]
 print(numberOfWaysToMakeChange(n, denoms))
