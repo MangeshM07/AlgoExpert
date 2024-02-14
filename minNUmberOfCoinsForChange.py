@@ -10,5 +10,5 @@ def minNumberOfCoinsForChange(n ,denoms):
 
 
 n=6
-denoms = [1,2,4]
+denoms = [1,2,5,10]
 print(minNumberOfCoinsForChange(n, denoms))
