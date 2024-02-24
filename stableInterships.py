@@ -35,6 +35,7 @@ def stableInternships(interns, teams):
     matches = [[internNum, teamNum] for teamNum, internNum in chosenInterns.items()]
     return matches
 
+
 interns = [
     [0, 1, 2],
     [0, 2, 1],
