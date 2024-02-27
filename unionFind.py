@@ -16,6 +16,7 @@ class UnionFind:
         if value != self.parents[value]:
             self.parents[value] = self.find(self.parents[value])
 
+
         return self.parents[value]
 
     def union(self, valueOne, valueTwo):
