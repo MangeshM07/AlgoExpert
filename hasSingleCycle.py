@@ -19,3 +19,6 @@ def getNextIdx(currentIdx, array):
 
 arr = [2,3,1,-4,-4,2]
 print(hasSingleCycle(arr))
+
+arr1 = [1, -1, 1, -1]
+print(hasSingleCycle(arr1))
