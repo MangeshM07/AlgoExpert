@@ -6,6 +6,7 @@ class Node:
     def addChild(self, name):
         self.children.append(Node(name))
 
+
     # O(V+E) time | O(V) space
     def breadthFirstSearch(self, array):
         queue = [self]
