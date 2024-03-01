@@ -42,6 +42,7 @@ def getUnvisitedNeighbors(i, j, matrix, visited):
         unvisitedNeighbors.append([i, j+1])
     return unvisitedNeighbors
 
+
 matrix = [
   [1, 0, 0, 1, 0],
   [1, 0, 1, 0, 0],
