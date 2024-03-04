@@ -47,11 +47,11 @@ def getNeighbors(matrix, row, col):
     numRows = len(matrix)
     numCols = len(matrix[row])
 
-    if row-1>=0: # UP
+    if row-1 >= 0: #UP
         neighbors.append((row-1,col))
-    if row+1<numRows: #DOWN
+    if row+1 < numRows: #DOWN
         neighbors.append((row+1, col))
-    if col-1>=0: #LEFT
+    if col-1 >= 0:  #LEFT
         neighbors.append((row, col-1))
     if col+1 < numCols: #RIGHT
         neighbors.append((row, col+1))
