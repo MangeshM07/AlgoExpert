@@ -14,7 +14,6 @@ def cycleInGraph(edges):
 
     return False
 
-
 def isNodeInCycle(edges, node, visited, currentlyInStack):
     visited[node] = True
     currentlyInStack[node] = True
