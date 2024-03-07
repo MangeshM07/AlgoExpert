@@ -10,7 +10,7 @@ def cycleInGraph(edges):
     colors = [WHITE for _ in range(numberOfNodes)]
 
     for node in range(numberOfNodes):
-        if colors[node] != WHITE
+        if colors[node] != WHITE:
             continue
 
         containsCycle = traverseAndColorNodes(node, edges, colors)
