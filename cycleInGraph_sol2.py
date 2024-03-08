@@ -5,6 +5,8 @@ WHITE, GREY, BLACK = 0, 1, 2
 # WHITE means unvisited
 # GREY means visited but not fully processed, still in recursive stack
 # BLACK fully processed
+
+
 def cycleInGraph(edges):
     numberOfNodes = len(edges)
     colors = [WHITE for _ in range(numberOfNodes)]
@@ -18,6 +20,7 @@ def cycleInGraph(edges):
             return True
 
     return False
+
 
 def traverseAndColorNodes(node, edges, colors):
     colors[node] = GREY
