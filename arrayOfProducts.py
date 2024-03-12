@@ -31,6 +31,7 @@ def arrayOfProducts_sol2(array):
     return products
 
 
+
 def arrayOfProducts_sol3(array):
     products = [1 for _ in range(len(array))]
 
