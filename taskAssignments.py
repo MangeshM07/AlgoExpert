@@ -3,6 +3,7 @@ def taskAssignment(k, tasks):
     taskDurationsToIndices = getTaskDurationToIndices(tasks)
 
     sortedTasks = sorted(tasks)
+
     for idx in range(k):
         task1Duration = sortedTasks[idx]
         indicesWithTask1Duration = taskDurationsToIndices[task1Duration]
