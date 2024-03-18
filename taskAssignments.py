@@ -18,7 +18,6 @@ def taskAssignment(k, tasks):
     return pairedTasks
 
 
-
 def getTaskDurationToIndices(tasks):
     taskDurationsToIndices = {}
 
