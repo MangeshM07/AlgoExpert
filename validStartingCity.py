@@ -19,7 +19,6 @@ def validStartingCity(distances, fuel, mpg):
 
     return -1
 
-
 distances = [5, 25, 15, 10, 15]
 fuel = [1,2,1,0,3]
 mpg = 10
