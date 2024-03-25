@@ -1,6 +1,7 @@
 def validStartingCity(distances, fuel, mpg):
     numberOfCities = len(distances)
 
+
     for startCityIdx in range(numberOfCities):
         milesRemaining = 0
 
