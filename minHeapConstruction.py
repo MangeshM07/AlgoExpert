@@ -3,6 +3,7 @@ class MinHeap:
     def __init__(self, array):
         self.heap = self.buildHeap(array)
 
+
     # O(n) time | O(1) space
     def buildHeap(self, array):
         firstparentIdx = (len(array) - 2)//2
