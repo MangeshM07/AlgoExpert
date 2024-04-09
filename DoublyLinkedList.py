@@ -27,6 +27,7 @@ class DoublyLinkedList:
     def removeNodesWithValue(self, value):
         pass
 
+
     def remove(self, node):
         pass
 
