@@ -7,6 +7,7 @@ class LinkedList:
 
 def sumOfLinkedLists(linkedListOne, linkedListTwo):
     # Write your code here.
+
     return linkedListOne
 
 
