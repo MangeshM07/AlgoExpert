@@ -21,7 +21,6 @@ def getNodesInArray(output):
         current = current.next
     return nodes
 
-
 class TestsumOfLinkedLists(unittest.TestCase):
     def test_case_1(self):
         ll1 = LinkedList(2).addMany([4, 7, 1])
