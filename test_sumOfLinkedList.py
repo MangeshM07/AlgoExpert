@@ -12,7 +12,6 @@ class LinkedList(sumOfLinkedLists.LinkedList):
             current = current.next
         return self
 
-
 def getNodesInArray(output):
     nodes = []
     current = output
