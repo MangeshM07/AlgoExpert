@@ -1,0 +1,1 @@
+def staircaseTraversal(height, maxSteps):
